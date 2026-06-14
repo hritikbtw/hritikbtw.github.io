@@ -1,2 +1,2 @@
-# hritix.github.io
+# hritikbtw.github.io
 my website (work in progress)
