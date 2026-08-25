@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+
+curl -fsSL https://pi.dev/install.sh | sh
+
+curl -fsSL https://ollama.com/install.sh | sh
+
