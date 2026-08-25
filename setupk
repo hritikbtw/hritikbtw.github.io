@@ -5,3 +5,6 @@ curl -fsSL https://pi.dev/install.sh | sh
 
 curl -fsSL https://ollama.com/install.sh | sh
 
+setsid -f ollama serve >/dev/null 2>&1 &
+
+ollama pull qwen3.8
