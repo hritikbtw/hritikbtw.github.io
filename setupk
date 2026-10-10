@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 
 
-curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
-sudo apt-get install -y nodejs
+curl -fsSL https://deb.nodesource.com/setup_22.x | bash -
+apt-get install -y nodejs
 setsid sh -c 'curl -fsSL https://pi.dev/install.sh | sh' < /dev/null
 
-sudo apt-get install -y zstd
+ln -s ~/.pi/agent/bin/pi /usr/bin/pi
+
+apt-get install -y zstd
 
 curl -fsSL https://ollama.com/install.sh | sh
 
